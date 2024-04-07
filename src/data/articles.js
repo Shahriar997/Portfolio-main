@@ -1,6 +1,6 @@
 import React from "react";
 
-function article_1() {
+function article_3() {
 	return {
 		date: "2021",
 		title: "Education",
@@ -43,7 +43,7 @@ function article_1() {
 	};
 }
 
-function article_2() {
+function article_1() {
 	return {
 		date: "January 09, 2022 - Present",
 		title: "Junior Software Engineer at Orbit Informatics",
@@ -77,7 +77,7 @@ function article_2() {
 	};
 }
 
-function article_3() {
+function article_2() {
 	return {
 		date: "N/A",
 		title: "Certifications",

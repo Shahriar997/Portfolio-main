@@ -34,7 +34,7 @@ const INFO = {
 
 	articles: {
 		title: "Education, Professional Experience and Attained Certifications",
-		description: "I graduated with a Bachelor of Science in Computer Science from BRAC University in 2021 and commenced my professional journey in January 2022 as a Junior Software Engineer. Concurrently, I am engaged in various side projects and actively pursuing further education in diverse technologies through Udemy.",
+		description: "I graduated with a Bachelor of Science in Computer Science from BRAC University in 2021 and commenced my professional journey in January 2022 as a Junior Software Engineer. Concurrently, I am engaged in various side projects and actively pursuing further skills in diverse technologies through Udemy.",
 	},
 
 	projects: [{
@@ -63,10 +63,10 @@ const INFO = {
 
 		{
 			title: "Aquila PQMS",
-			description: "ne of the core and technically critical project of my current company which is a secure cloudbased communication and document management application for ship building projects.  This is a project of my current company and I have a big contribution in it as well.",
+			description: "One of the core and technically critical project of my current company which is a secure cloudbased communication and document management application for ship building projects.",
 			logo: "https://www.cdnlogo.com/logos/y/34/yii.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://www.aquilapqms.com/",
 		},
 
 		{
