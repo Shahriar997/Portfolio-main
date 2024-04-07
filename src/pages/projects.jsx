@@ -43,16 +43,10 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+						I've been part of many exciting projects that I can't wait to share with you! While some are under wraps due to agreements, 
+						I'm thrilled to showcase them via video calls on Google Meet or Zoom. 
+						Plus, I've got some cool projects from Udemy courses on my GitHub for you to check out anytime! 
+						Let's connect and dive into the awesome stuff I've been working on!
 						</div>
 
 						<div className="projects-list">
