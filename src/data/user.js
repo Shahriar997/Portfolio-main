@@ -40,10 +40,11 @@ const INFO = {
 
 	projects: [{
 			title: "Tawaki Finance Buddy",
-			description: " Pr	oject for a local import company ‘Tawaki Power Generation’. With the motivation of keeping all financial Transactions transparent among the partners. It tracks and calculate all financial records. The MVP (most viable product) was sent to production within a month.",
+			description: " Project for a local import company ‘Tawaki Power Generation’. With the motivation of keeping all financial Transactions transparent among the partners. It tracks and calculate all financial records. The MVP (most viable product) was sent to production within a month.",
 			logo: "https://www.cdnlogo.com/logos/l/57/laravel.svg",
 			linkText: "View Project",
 			link: "https://github.com/Shahriar997",
+			tooltip: "Laravel",
 		},
 
 		{
@@ -52,6 +53,7 @@ const INFO = {
 			logo: "../mern.png",
 			linkText: "View Project",
 			link: "https://github.com/Shahriar997/Your-Places--Share-and-rate-your-favorite-places-Backend-ExpressJS-and-Mongo",
+			tooltip: "MERN",
 		},
 
 		{
@@ -60,6 +62,16 @@ const INFO = {
 			logo: "https://www.cdnlogo.com/logos/p/71/php.svg",
 			linkText: "Project Staging Url",
 			link: "https://joe-stg.prepmock.com/signin",
+			tooltip: "JAMBURA - PHP Custom Framework",
+		},
+
+		{
+			title: "Jambura SQS Service",
+			description: "Introducing Jambura SQS Service: a lightweight solution for seamless message handling. Developed solely by me for my current company, it's designed for simplicity and flexibility, capturing and processing AWS SQS messages effortlessly.",
+			logo: "https://www.cdnlogo.com/logos/p/71/php.svg",
+			linkText: "View Project",
+			link: "https://github.com/Prepmock/jambura-sqs-service",
+			tooltip: "PHP",
 		},
 
 		{
@@ -68,6 +80,7 @@ const INFO = {
 			logo: "https://www.cdnlogo.com/logos/y/34/yii.svg",
 			linkText: "View Project",
 			link: "https://www.aquilapqms.com/",
+			tooltip: "YII 1.1",
 		},
 
 		{
@@ -76,6 +89,7 @@ const INFO = {
 			logo: "https://www.cdnlogo.com/logos/c/31/codeigniter.svg",
 			linkText: "Project Live Url",
 			link: "https://www.voucherme.ie/",
+			tooltip: "Code Igniter 3",
 		},
 	],
 	Skills: [
