@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import Bars from 'react-bars';
 
 const About = () => {
 	useEffect(() => {
@@ -68,6 +69,22 @@ const About = () => {
 						</div>
 						<div className="about-socials-mobile">
 							<Socials />
+						</div>
+
+						<div className="title about-title">
+							Skills
+						</div>
+
+						<div className="subtitle about-subtitle">
+							<Bars 
+								className="bar-label"
+								data={INFO.Skills} 
+								maxValue={10}
+								showValue={true} 
+								barColor={"#189AB4"} 
+								barBackgroundColor={"#F0F0F0"} 
+								barHeight={30}
+							/>
 						</div>
 					</div>
 					<div className="page-footer">

@@ -14,7 +14,8 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Software Engineer | PHP, JS, JAVA",
+		title: "SHAHRIAR HOSSAIN",
+		designation: "Software Engineer | PHP, JS, JAVA",
 		description: `As a backend developer, I specialize in PHP and Node.js, leveraging my expertise to construct scalable, secure, and dependable web applications. 
 		My proficiency extends across multiple frameworks and technologies, including Laravel, Yii, custom PHP frameworks, and Express.js. 
 		Committed to continuous learning, I eagerly embrace new skills and languages. 
@@ -39,7 +40,7 @@ const INFO = {
 
 	projects: [{
 			title: "Tawaki Finance Buddy",
-			description: " Project for a local import company ‘Tawaki Power Generation’. With the motivation of keeping all financial Transactions transparent among the partners. It tracks and calculate all financial records. The MVP (most viable product) was sent to production within a month.",
+			description: " Pr	oject for a local import company ‘Tawaki Power Generation’. With the motivation of keeping all financial Transactions transparent among the partners. It tracks and calculate all financial records. The MVP (most viable product) was sent to production within a month.",
 			logo: "https://www.cdnlogo.com/logos/l/57/laravel.svg",
 			linkText: "View Project",
 			link: "https://github.com/Shahriar997",
@@ -76,6 +77,17 @@ const INFO = {
 			linkText: "Project Live Url",
 			link: "https://www.voucherme.ie/",
 		},
+	],
+	Skills: [
+		{label:'PHP', value:9},
+		{label:'MySql', value:8},
+		{label:'Laravel', value:8},
+		{label:'Javascript', value:7.5},
+		{label:'Express-Js', value:7.5},
+		{label:'MongoDB', value:7.5},
+		{label:'AWS', value:6},
+		{label:'JAVA', value:6},
+		{label:'Python', value:5},
 	],
 };
 

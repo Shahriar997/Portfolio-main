@@ -4,23 +4,18 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
-	faInstagram,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -92,10 +87,14 @@ const Homepage = () => {
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
-								<div className="title homepage-title">
+								<div className="title homepage-title" style={{ color: "#189AB4" }}>
 									{INFO.homepage.title}
 								</div>
 
+								<div className="title homepage-title" style={{ fontSize: "28px" }}>
+									{INFO.homepage.designation}
+								</div>
+								
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 								</div>

@@ -69,6 +69,17 @@
 	display: none;
 }
 
+
+.bar-label {
+    color: white;
+    font: 12px 'opensans-bold', sans-serif !important;
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: relative;
+    top: 8px !important;
+    left: 10px;
+}
+
 @media (max-width: 1024px) {
 	.about-logo {
 		z-index: 100;
